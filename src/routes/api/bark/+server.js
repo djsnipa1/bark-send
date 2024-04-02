@@ -1,9 +1,10 @@
 import { BARK_KEY } from '$env/static/private';
+import { encodedToSend } from '$lib/store';
 
 
 export async function GET() {
   // Define the URL of the external API
-  const externalApiUrl = `https://api.day.app/${BARK_KEY}/Copy Test?copy=test`;
+  const externalApiUrl = `https://api.day.app/${BARK_KEY}/Copy?copy=${encodedToSend}`;
 
   const response = await fetch(externalApiUrl);
 

@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@fontsource-variable/kode-mono':
+    specifier: ^5.0.1
+    version: 5.0.1
+  '@fontsource-variable/teko':
+    specifier: ^5.0.4
+    version: 5.0.4
   '@sveltejs/adapter-auto':
     specifier: ^3.0.0
     version: 3.2.0(@sveltejs/kit@2.5.4)
@@ -833,6 +839,14 @@ packages:
   /@fastify/busboy@2.1.1:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
+    dev: true
+
+  /@fontsource-variable/kode-mono@5.0.1:
+    resolution: {integrity: sha512-1nlTMSHckBRQ8Cdfy4WPqZmcfnTFdKQAys8H9OCiV+H0tl+9akTiQLXe0Qk+QhXpAlZdSyXbJvX7JZg7YRN8wA==}
+    dev: true
+
+  /@fontsource-variable/teko@5.0.4:
+    resolution: {integrity: sha512-ZYJusvDxXzWgCPAU7XZ12wZQZ6cLiZVWHsadlFHylgx9ocVOnMklvKHZe1w6UKrEOaPTOCEhNr4mkjPCPmfE4g==}
     dev: true
 
   /@humanwhocodes/config-array@0.11.14:

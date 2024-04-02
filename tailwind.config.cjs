@@ -7,9 +7,10 @@ const config = {
 
 	theme: {
 		extend: {
-		/*	fontFamily: {
-				kodemono: ['Kode Mono', 'monospace'],
-			} */ 
+			fontFamily: {
+				kodemono: ['Kode Mono Variable', 'monospace'],
+				teko: ['Teko Variable', 'sans-serif']
+			} 
 		}
 	},
 

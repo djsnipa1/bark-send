@@ -1,6 +1,7 @@
 <script>
 	import '../app.pcss';
-	import '@fontsource/kode-mono';
+	import '@fontsource-variable/kode-mono';
+	import '@fontsource-variable/teko';
 </script>
 
 
