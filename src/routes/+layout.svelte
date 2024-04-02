@@ -1,10 +1,11 @@
 <script>
 	import '../app.pcss';
+	import '@fontsource/kode-mono';
 </script>
 
-<div class="h-screen w-full bg-slate-800">
+
 	<slot />
-</div>
+
 
 <style>
 </style>

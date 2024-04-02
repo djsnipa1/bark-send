@@ -1,0 +1,39 @@
+run = "pnpm run dev"
+
+[env]
+SHELL = "bash"
+
+[nix]
+channel = "stable-23_11"
+
+[languages]
+
+[languages.javascript]
+pattern = "**/{*.js,*.jsx,*.ts,*.tsx,*.json}"
+[languages.javascript.languageServer]
+start = "typescript-language-server --stdio"
+
+[languages.svelte]
+pattern = "**/{*.svelte}"
+[languages.svelte.languageServer]
+start = "svelteserver --stdio"
+
+#'javascript': ['javascript-typescript-stdio'],
+#\ 'html': ['html-languageserver', '--stdio'],
+#\ 'css': ['css-languageserver', '--stdio'],
+#\ 'svelte': ['svelteserver', '--stdio']
+#\}
+
+[languages.html]
+pattern = "**/{*.html}"
+[languages.html.languageServer]
+start = "html-languageserver --stdio"
+
+[languages.css]
+pattern = "**/{*.css}"
+[languages.css.languageServer]
+start = "css-languageserver --stdio"
+
+[[ports]]
+localPort = 5173
+externalPort = 80

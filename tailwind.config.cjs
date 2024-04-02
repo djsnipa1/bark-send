@@ -6,10 +6,19 @@ const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+		/*	fontFamily: {
+				kodemono: ['Kode Mono', 'monospace'],
+			} */ 
+		}
 	},
 
-	plugins: [forms, typography]
+	plugins: [forms, typography, require("daisyui")],
+
+	daisyui: {
+		themes: ["light", "dark", "coffee", "synthwave"],
+		darkTheme: "coffee"
+	}
 };
 
 module.exports = config;
