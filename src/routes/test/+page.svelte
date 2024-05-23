@@ -1,7 +1,7 @@
 <script>
-  let address = "";
-  export let data;
-  const { bark, title } = data;
+	let address = '';
+	export let data;
+	const { bark, title } = data;
 </script>
 
 <h1>data</h1>
